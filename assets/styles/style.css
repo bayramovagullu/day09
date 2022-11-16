@@ -1,0 +1,838 @@
+@import url(/FONTS/alef009.zip);
+@import url(/FONTS/Avenir-Font.zip);
+@import url(/FONTS/Helvetica-Font.zip);
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+  padding: 49px 240px;  
+  font-family: 'Avenir';
+
+}
+
+/* .logo{
+    margin-top: 57px;
+    margin-left: 240px;
+    position: absolute;
+    
+} */
+.qlava{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1120px;
+    height: 60px;
+}
+.about ul {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-around;
+    /* width: 53px;
+    height: 30px;
+    margin-top: 64px;
+    margin-left: 410px;
+    position: absolute;
+   font-family: 'Avenir';
+    font-style:normal ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68; */ 
+}
+.about li {
+    padding-right: 40px;
+    cursor: pointer;
+
+}
+.about li:last-child{
+    padding-right: 0;
+}
+
+
+.nav2{
+     width: 210px;
+    height: 60px; 
+     /* margin-left: 1150px; */
+     /* margin-top: 49px;  */
+     background: #FFFF;
+     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+     border-radius: 50px;
+  } 
+    .nav2  button{
+    width: 182px;
+    height: 26px;
+    margin-left: 29px;
+    margin-top: 17px; 
+    font-family: 'Avenir-Font';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    /* letter-spacing: 0.005em; */
+    color: #212353;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+     }
+     .nav2 img{
+       margin-left: 20px; 
+     }
+
+/* .qlava-2{
+   margin-left: 176px;
+        /* margin-top: 239px;  */
+
+
+     .save-here{
+        width: 645px;
+        height: 184px;
+        position: absolute;
+        margin-left: 176px;
+     font-family: 'Alef';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 80px;
+     line-height: 110%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+
+    }
+    .bg-01{
+        position: absolute;
+        margin-left: 759px;
+        margin-top: 102px;
+    }
+    .text-01 {
+       margin-left: 176px;
+      width: 380px;
+      height: 120px;
+      margin-top: 200px;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+        color: #4B5D68;
+    }
+    .btn-02{
+        width: 170px;
+        height: 60px;
+        background: #9C69E2;
+        border-radius: 50px;
+        margin-left:176px ;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+.qlava-02{
+    width: 1117px;
+    height: 560px;
+   position: absolute;
+   margin-left: 242px;
+   margin-top: 200px;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+}
+
+.qlava-02 img{
+    float: left;
+}
+.we-bank{
+width: 475px;
+height: 100px;
+margin-top: 123px;
+margin-left: 500px;
+ font-family: 'Alef';
+ font-style: normal;
+ font-weight: 700;
+ font-size:40px;
+ line-height: 130%;
+ color: #212353;
+    }
+
+    .text-02{
+        position: absolute;
+        width: 474px;
+        height: 170px;
+        margin-left: 500px;
+        margin-top: 30px;
+        font-family: 'Alef';
+ font-style: normal;
+ font-weight: 500;
+ font-size:18px;
+ line-height: 160%;
+ color: #4B5D68;
+    }
+
+
+
+
+    .text-03{
+        width: 405px;
+        height: 52px;
+        margin-left: 700px;
+        color: #212353;
+        font-family: 'Alef';
+        font-style: normal;
+        font-weight: 700;
+        font-size:40px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 900px;
+
+    }
+    .text-04{
+        position: absolute;
+        width: 584px;
+        height: 58px;
+        margin-left: 518px;
+        margin-top: 50px;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 500;
+        font-size:18px;
+        line-height: 160%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #4B5D68;
+
+    }
+
+
+
+    .s-d{
+        left: 400px;
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        color:#212353;
+        margin-top: 50px;
+        
+     }
+
+     .text-05{
+        
+     position:  absolute;
+     width: 220px;
+     height: 160px;
+     left: 400px;
+     margin-top: 100px;
+     font-family: 'Avenir';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 160%;
+    color: #4B5D68; 
+    }
+
+    .qlava-04 img {
+        margin-left: -80px;
+        margin-top: 100px;
+        float: left;
+        /* margin-top: 1900px; */
+    }
+    /* .qlava-04 button{
+        position: absolute;
+        width: 87px;
+        height: 26px;
+        margin-left: 220px;
+        margin-top: 250px;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 160%;
+       background-color: #68C9BA;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.005em;
+         color: #212353;
+         border: none;
+
+    } */
+
+   .qlava04-btn{
+    width: 87px;
+    height: 26px;
+    margin-top: 250px;
+    margin-left: 220px;
+    
+   } 
+.qlava-04{
+    width: 442px;
+    height: 358px;
+    margin-left: 200px;
+    margin-top: 120px;
+    background-color: #68C9BA;
+    /* opacity: 0.1; */
+    border-radius:50px ;
+}
+
+/* .qlava-04 button img {
+    margin-top: -0px;
+    margin-left: 40px;
+    /* margin-left: -150px; */
+
+.osnova-01{
+    display: flex;
+}
+.qlava-04-01{
+    width: 442px;
+    height: 358px;
+    margin-left: 340px;
+    margin-top: 120px;
+    background-color: #9C69E2;
+    /* opacity: 0.1; */
+    border-radius:50px ;
+}
+.text-06{
+    position:  absolute;
+     width: 220px;
+     height: 160px;
+     /* left: 400px; */
+     margin-top: 100px;
+     font-family: 'Avenir';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 160%;
+    color: #4B5D68;  
+    margin-left: 200px;
+}
+.qlava-04-01 img {
+    margin-left: -80px;
+    margin-top: 70px;
+    float: left;
+}
+.h-a{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color:#212353;
+    margin-top: 50px;
+     margin-left: 200px;  
+}
+
+/* .qlava-04-01 button{
+    position: absolute;
+    width: 87px;
+    height: 26px;
+    margin-left: 220px;
+    margin-top: 250px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+   background-color: #9C69E2;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+     color: #212353;
+   border: none;  
+} */
+
+.qlava-04-01 i {
+    color: palevioletred;
+}
+
+
+.bg-t-t{
+    position: absolute;
+    width: 1000px;
+    height: 709px;
+    left: 5px;
+    top: 2700px;
+    
+    background: #9C69E2;
+    border-radius: 50px;
+    }
+
+
+
+
+
+
+.T-T{
+
+position: absolute;
+width: 405px;
+height: 52px;
+left: 100px;
+top: 150px;
+font-family: 'Alef';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 130%;
+display: flex;
+align-items: center;
+color: #ffffff;
+
+
+}
+
+
+.lasted-01{
+position: absolute;
+width: 555px;
+height: 330px;
+left: 53px;
+top: 300px;
+background: #FFFFFF;
+box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+border-radius: 20px;
+
+}
+
+.pp-001{
+ margin-top: 60px;  
+ margin-left: 160px; 
+}
+
+.pp-text {
+position: absolute;
+width: 385px;
+height: 130px;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 180%;
+color: #194865;
+margin-top: 20px;
+
+}
+
+.pp-2{
+    margin-top: 60px;  
+    margin-left: 160px; 
+   }
+
+.pp-002{
+    
+box-sizing: border-box;
+position: absolute;
+width: 400px;
+height: 330px;
+left: 650px;
+top: 300px;
+background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0) 100%);
+border: 1px solid #9C69E2;
+border-radius: 20px;
+background-color: white;
+}
+.pp-002 img{
+  float: left;  
+  margin-left: 30px;
+   margin-top: 50px; 
+}
+
+.pp-text-01 {
+    position: absolute;
+    width: 200px;
+    height: 130px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #194865;
+    margin-top: 20px;
+    
+    }
+
+
+
+.pp-003{
+box-sizing: border-box;
+position: absolute;
+width: 400px;
+height: 330px;
+left: 1080px;
+top: 300px;
+background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0) 100%);
+border: 1px solid #9C69E2;
+border-radius: 20px;
+
+    
+}
+
+
+
+
+.lasted a{
+  text-decoration: none;
+  color: blue;
+}
+.lasted{
+    display: flex;
+    width: 400px;
+    height: 330px;
+}
+.lasted-01 img {
+   float: left;
+   margin-left: 30px;
+   margin-top: 70px;
+
+}
+
+
+.pp-003 img{
+    float: left;
+    margin-left: 30px;
+   margin-top: 70px;
+}
+.pp-3{
+    margin-top: 60px;  
+    margin-left: 160px; 
+}
+.pp-text-02{
+    position: absolute;
+    width: 200px;
+    height: 130px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #194865;
+    margin-top: 20px;  
+}
+
+.foot-text{
+position: absolute;
+width: 405px;
+height: 52px;
+left: 240px;
+top: 3751px;
+font-family: 'Alef';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 130%;
+display: flex;
+align-items: center;
+color: #212353;
+
+}
+.f-t-01{
+position: absolute;
+width: 584px;
+height: 29px;
+left: 240px;
+top: 3824px;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #4B5D68;
+
+}
+.f-btn-00{
+position: absolute;
+width: 96px;
+height: 29px;
+left: 40px;
+top: 15px;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 160%;
+display: flex;
+align-items: center;
+text-align: center;
+color: #ffffff;
+border: none;
+background: none
+}
+.ff-btn{
+position: absolute;
+width: 190px;
+height: 60px;
+left: 907px;
+top: 3772px;
+background: #F063B8;
+border-radius: 50px;}
+
+.last-btn{
+position: absolute;
+width: 210px;
+height: 60px;
+left: 1147px;
+top: 3772px;
+
+background: #FFFFFF;
+box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+border-radius: 50px;
+}
+.f-btn-01{
+position: absolute;
+width: 112px;
+height: 26px;
+left: 40px;
+top: 15px;
+background-color: #FFFFFF;
+border: none;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 160%;
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+color: #212353;
+
+}
+.fa-arrow-right{
+box-sizing: border-box;
+position: absolute;
+width: 20px;
+height: 0px;
+left: 150px;
+top: 20px;
+color: #9C69E2;
+
+}
+.dwh{
+position: absolute;
+left: 80px;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 160%;
+color: #212353;
+
+    
+}
+.last-logo{
+position: absolute;
+width: 49px;
+height: 35px;
+left: 240px;
+top: 4002px;
+
+}
+.last-p-00{
+ position:  absolute;
+ width: 335px;
+ height: 65px;
+ left: 240px;
+ top: 4102px;
+ font-family: 'Avenir';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 180%;
+ letter-spacing: 0.01em;
+ color: #212353
+}
+
+.last-p-01{
+position: absolute;
+width: 335px;
+height: 60px;
+left: 240px;
+top: 4177px;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 180%;
+letter-spacing: 0.01em;
+color: #212353;
+}
+
+.last-p-02{
+position: absolute;
+width: 360px;
+height: 50px;
+left: 240px;
+top: 4352px;
+
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 180%;
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+color: #212353;
+
+}
+.last-about{
+position: absolute;
+width: 51.75px;
+height: 30px;
+left: 715px;
+top: 4012px;
+
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 160%;
+color: #212353;
+
+}
+.last-help{
+position: absolute;
+width: 51.75px;
+height: 30px;
+left: 930px;
+top: 4012px;
+
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 160%;
+color: #212353;
+
+}
+
+.last-sm{
+   position: absolute;
+width: 170px;
+height: 30px;
+left: 1147px;
+top: 4012px; 
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 160%;
+color: #212353;
+
+}
+
+.about-list{
+ 
+ position: absolute;
+width: 166px;
+height: 160px;
+left: 716px;
+top: 4071px;
+
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 250%;
+color: #212353;   
+}
+.help-list{
+position: absolute;
+width: 166px;
+height: 190px;
+left: 930px;
+top: 4072px;
+
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 250%;
+color: #212353;
+}
+
+.about-list li, .help-list li{
+    list-style-type: none;
+}
+
+.fa-brands{
+
+position: absolute;
+width: 178px;
+height: 50px;
+left: 1147px;
+top: 4072px;
+
+
+}
+.fa-facebook{
+position: absolute;
+width: 50px;
+height: 50px;
+left: 1147px;
+top: 4072px;
+background: #212353;
+/* opacity: 0.1; */
+
+
+left: 72.94%;
+right: 26.46%;
+top: 90.82%;
+bottom: 8.72%;
+background: white;
+}
+.fa-twitter{
+position: absolute;
+width: 50px;
+height: 50px;
+left: 1211px;
+top: 4072px;
+background: #212353;
+/* opacity: 0.1; */
+
+
+position: absolute;
+left: 76.69%;
+right: 22.17%;
+top: 90.87%;
+bottom: 8.8%;
+background: #FFFFFF;
+}
+
+.fa-instagram{
+position: absolute;
+width: 50px;
+height: 50px;
+left: 1275px;
+top: 4072px;
+background: #212353;
+opacity: 0.1;
+color: #194865;
+
+
+position: absolute;
+left: 80.75%;
+right: 18.25%;
+top: 90.87%;
+bottom: 8.78%;
+background: #FFFFFF;
+}
